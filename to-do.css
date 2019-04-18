@@ -1,0 +1,57 @@
+html {
+  /* font-family: fantasy; */
+
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body  h1 {
+  color: white;
+}
+
+button {
+}
+
+button:hover {
+  -webkit-box-shadow: 0px 0px 0 #666;
+  -moz-box-shadow: 0px 0px 0 #666;
+  top: 5px;
+  left: 5px;
+}
+
+ul.checklist {
+  border-style: solid;
+
+  display: inline-block;
+  text-align: center;
+
+  padding: 20px;
+  margin: 10px;
+  background: blue;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3em;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px blue, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px navy;
+  font-weight: normal;
+
+  /* getting rid of the dot */
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  height: 50px;
+  width: 500px;
+}
